@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin-right: 5px;
+}
+
+label {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.app{
+  text-align: center;
+ 
+
+}
+.crud{
+  text-align: center;
+  color:orangered;
+}
+.form-label {
+  font-weight: bold;
+  color: #333;
+  margin-left:10px;
+}
+
+.form-input {
+  width: 350px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-button {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.form-button:hover {
+  background-color: darkgreen;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.button-cell button {
+  margin-right: 5px;
+}
+.delete-button {
+  background-color: red;
+  color: white;
+  margin-right: 8px;
+  border: none;
+}
+.edit-button {
+  background-color: blue;
+  color: white;
+  margin-right: 8px;
+  border: none;
 }
